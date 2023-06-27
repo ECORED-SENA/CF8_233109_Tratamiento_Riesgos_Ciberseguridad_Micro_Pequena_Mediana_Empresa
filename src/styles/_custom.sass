@@ -348,3 +348,47 @@
 
 .text-small2
   font-size: 0.9em
+
+
+.lista-ul--color
+  li
+    display: flex !important
+    &::before
+      position: relative
+      margin-right: 7px
+      font-size: 1.4rem
+
+.btn-h3
+  position: relative
+  display: inline-block
+  background: #40327B
+  border-start-end-radius: 50px 50px
+  border-end-end-radius: 50px 50px
+  padding: 8px 45px 8px 50px
+  span
+    color: #fff
+  &::before
+    content: ""
+    position: absolute
+    background: url(../assets/curso/bg/bg-btn-h3.svg)
+    width: 40px
+    height: 38px
+    bottom: 0px
+    left: 0px
+
+
+.banner-principal
+  .container.tarjeta
+    @media screen and (max-width: $bp-max-xs)
+      background-image: none !important
+      background: #583AE2
+
+
+.linea-tiempo-d__item__content__title.px-3
+  padding-top: 1rem
+  padding-bottom: 1rem
+
+@media (max-width:$bp-max-sm)
+  .linea-tiempo-d__item__content__title
+    cursor: pointer
+    height: 115% !important

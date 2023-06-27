@@ -134,6 +134,7 @@ export default {
         icono: 'fas fa-sitemap',
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
+        desarrolloContenidos: true,
       },
       {
         nombreRuta: 'actividad',
@@ -176,55 +177,54 @@ export default {
   referencias: [
     {
       referencia:
-        'Bitsight. (2019). The Importance of Continuous Improvement in Security Performance Management.',
+        'Bitsight. (2019). <em>The Importance of Continuous Improvement in Security Performance Management</em>.',
       link:
         'https://www.bitsight.com/blog/importance-continuous-improvement-security-performance-management',
     },
     {
-      referencia: 'Eccouncil (s.f). What is Ethical Hacking?',
+      referencia: 'Eccouncil (s.f). <em>What is Ethical Hacking?</em>',
       link: 'https://www.eccouncil.org/ethical-hacking/',
     },
     {
       referencia:
-        'GlobalSign Blog. (2022). Comment (et pourquoi) mener des audits de cybersécurité dans votre entreprise.',
+        'GlobalSign Blog. (2022). <em>Comment (et pourquoi) mener des audits de cybersécurité dans votre entreprise</em>.',
       link:
         'https://www.globalsign.com/fr/blog/comment-et-pourquoi-mener-des-audits-de-cybersecurite',
     },
     {
       referencia:
-        'Howard Poston. (2019) Information Collection in Cybersecurity.',
+        'Howard Poston. (2019) <em>Information Collection in Cybersecurity</em>.',
       link:
         'https://resources.infosecinstitute.com/topic/information-collection-in-cybersecurity/',
     },
     {
       referencia:
-        'Incibe. (s. f.). Glosario de términos de ciberseguridad. Gobierno de España.',
+        'Incibe. (s. f.). <em>Glosario de términos de ciberseguridad</em>. Gobierno de España.',
       link:
         'https://www.incibe.es/sites/default/files/contenidos/guias/doc/guia_glosario_ciberseguridad_2021.pdf',
     },
     {
-      referencia: 'Ingrid Horvath (2022). The Five Phases of Ethical Hacking. ',
+      referencia:
+        'Ingrid Horvath (2022). <em>The Five Phases of Ethical Hacking</em>. ',
       link: 'https://www.invensislearning.com/blog/phases-of-ethical-hacking/',
     },
     {
       referencia:
-        'Mon-infra. (s. f.). Quelles sont les étapes d’un audit informatique?',
-      link:
-        'https://mon-infra.fr/quelles-sont-les-etapes-dun-audit-informatique/',
+        'Mon-infra. (s. f.). <em>Quelles sont les étapes d’un audit informatique?</em>',
     },
     {
       referencia:
-        'Premier IT Solution. (2022). External IT Security Audit - What It Is and Why You Need On.',
+        'Premier IT Solution. (2022). <em>External IT Security Audit - What It Is and Why You Need On</em>.',
       link:
         'https://securityboulevard.com/2022/08/what-is-a-cybersecurity-audit-and-why-is-it-important/',
     },
     {
-      referencia: 'Synopsys. (2022). Ethical Hacking.',
+      referencia: 'Synopsys. (2022). <em>Ethical Hacking</em>.',
       link: 'https://www.synopsys.com/glossary/what-is-ethical-hacking.html',
     },
     {
       referencia:
-        'Zevenet. (2021). 10 Importance of Information Security Audit.',
+        'Zevenet. (2021). <em>10 Importance of Information Security Audit</em>.',
       link:
         'https://www.zevenet.com/blog/10-importance-of-information-security-audit/',
     },
@@ -233,7 +233,7 @@ export default {
     {
       termino: 'Auditoría de seguridad',
       significado:
-        'consiste en el análisis y gestión de sistemas llevado a cabo por profesionales en tecnologías de la información (ti) principalmente para identificar, enumerar y describir las diversas vulnerabilidades que pudieran presentarse en una revisión exhaustiva de las estaciones de trabajo, redes de comunicaciones, servidores o aplicaciones.',
+        'consiste en el análisis y gestión de sistemas llevado a cabo por profesionales en tecnologías de la información (TI) principalmente para identificar, enumerar y describir las diversas vulnerabilidades que pudieran presentarse en una revisión exhaustiva de las estaciones de trabajo, redes de comunicaciones, servidores o aplicaciones.',
     },
     {
       termino: 'Agujero de seguridad',
@@ -243,7 +243,7 @@ export default {
     {
       termino: '<em>Adware</em>',
       significado:
-        'software que se apoya en anuncios (normalmente para financiarse) como parte del propio programa. en algunos casos se les considera malware. Es común en las versiones gratuitas en las aplicaciones.',
+        '<em>software</em> que se apoya en anuncios (normalmente para financiarse) como parte del propio programa. en algunos casos se les considera <em>malware</em>. Es común en las versiones gratuitas en las aplicaciones.',
     },
     {
       termino: 'Amenaza',
@@ -258,7 +258,7 @@ export default {
     {
       termino: '<em>Antispyware</em>',
       significado:
-        'herramienta de software diseñada para detectar y eliminar programas maliciosos del tipo spyware cuyo objetivo es espiar y obtener de forma sigilosa información personal presente en el dispositivo sin consentimiento del usuario.',
+        'herramienta de <em>software</em> diseñada para detectar y eliminar programas maliciosos del tipo <em>spyware</em> cuyo objetivo es espiar y obtener de forma sigilosa información personal presente en el dispositivo sin consentimiento del usuario.',
     },
     {
       termino: '<em>Backup</em>',
@@ -273,12 +273,12 @@ export default {
     {
       termino: '<em>Botnet</em>',
       significado:
-        'conjunto de ordenadores (denominados bots) controlados remotamente por un atacante que pueden ser utilizados en conjunto para realizar actividades maliciosas como envío de spam, ataques de DDOS, etc.',
+        'conjunto de ordenadores (denominados <em>bots</em>) controlados remotamente por un atacante que pueden ser utilizados en conjunto para realizar actividades maliciosas como envío de spam, ataques de DDOS, etc.',
     },
     {
       termino: 'Captcha',
       significado:
-        'acrónimo en inglés de Completely Automated Public Turing Test To Tell Computers and Humans Apart; en español, prueba de turing completamente automática y pública para diferenciar ordenadores de humanos, es un tipo de medida de seguridad que consiste en la realización de pruebas desafío-respuesta controladas por máquinas que sirven para determinar cuándo el usuario es un humano o un bot según la respuesta a dicho desafío.',
+        'acrónimo en inglés de <em>Completely Automated Public Turing Test To Tell Computers and Humans Apart</em>; en español, prueba de <em>turing</em> completamente automática y pública para diferenciar ordenadores de humanos, es un tipo de medida de seguridad que consiste en la realización de pruebas desafío-respuesta controladas por máquinas que sirven para determinar cuándo el usuario es un humano o un <em>bot</em> según la respuesta a dicho desafío.',
     },
     {
       termino: 'Cortafuegos',

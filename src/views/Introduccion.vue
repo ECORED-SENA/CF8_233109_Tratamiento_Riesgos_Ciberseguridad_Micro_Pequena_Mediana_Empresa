@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
+
     .titulo-principal
       .titulo-principal__numero
         span
@@ -32,19 +32,19 @@
               | Una violación de datos.
             li
               i.fas.fa-shield-virus(style="color= #583AE2")
-              | Una actualización del sistema. 
+              | Una actualización del sistema.
             li
               i.fas.fa-shield-virus(style="color= #583AE2")
-              | Una migración de datos. 
+              | Una migración de datos.
             li
               i.fas.fa-shield-virus(style="color= #583AE2")
               | Cuando se producen cambios en las leyes de cumplimiento.
             li
               i.fas.fa-shield-virus(style="color= #583AE2")
-              | Cuando se implementa un nuevo sistema. 
+              | Cuando se implementa un nuevo sistema.
             li
               i.fas.fa-shield-virus(style="color= #583AE2")
-              | Cuando el negocio crece en más de una cantidad definida de usuarios. 
+              | Cuando el negocio crece en más de una cantidad definida de usuarios.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9.order-lg-1.order-2(data-aos="fade-right")
@@ -55,8 +55,9 @@
 
     figure.mb-4(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/x1gSQkGerpo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/x1gSQkGerpo" title="Evaluación de las estrategias de seguridad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Evaluación de las estrategias de seguridad
+
 </template>
 
 <script>

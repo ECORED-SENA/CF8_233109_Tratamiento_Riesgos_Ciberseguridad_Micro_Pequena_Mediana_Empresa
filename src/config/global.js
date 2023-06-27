@@ -37,43 +37,37 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info',
+        icono: 'fas fa-info-circle',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Técnicas de auditoría',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '1.1',
             titulo: 'Tipos',
             hash: 't_1_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.2',
             titulo: 'Métodos',
             hash: 't_1_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.3',
             titulo: 'Características y aplicación',
             hash: 't_1_3',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.4',
             titulo: 'Técnicas de recopilación de información',
             hash: 't_1_4',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '1.5',
             titulo: 'Recomendaciones',
             hash: 't_1_5',
@@ -82,25 +76,21 @@ export default {
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Hacking Ético',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '2.1',
             titulo: 'Etapas',
             hash: 't_2_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.2',
             titulo: 'Técnicas',
             hash: 't_2_2',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '2.3',
             titulo: 'Consideraciones',
             hash: 't_2_3',
@@ -109,19 +99,16 @@ export default {
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Mejoramiento continuo',
         desarrolloContenidos: true,
         subMenu: [
           {
-            icono: 'far fa-file-alt',
             numero: '3.1',
             titulo: 'Socialización de resultados del tratamiento de riesgo',
             hash: 't_3_1',
           },
           {
-            icono: 'far fa-file-alt',
             numero: '3.2',
             titulo: 'Informe técnico de hallazgos y recomendaciones',
             hash: 't_3_2',

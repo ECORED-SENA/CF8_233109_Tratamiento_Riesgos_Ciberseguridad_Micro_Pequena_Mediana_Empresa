@@ -77,7 +77,7 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Hacking Ético',
+        titulo: '<em>Hacking</em> Ético',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -230,7 +230,7 @@ export default {
     {
       termino: '<em>Adware</em>',
       significado:
-        '<em>software</em> que se apoya en anuncios (normalmente para financiarse) como parte del propio programa. en algunos casos se les considera <em>malware</em>. Es común en las versiones gratuitas en las aplicaciones.',
+        '<em>software</em> que se apoya en anuncios (normalmente para financiarse) como parte del propio programa. En algunos casos se les considera <em>malware</em>. Es común en las versiones gratuitas en las aplicaciones.',
     },
     {
       termino: 'Amenaza',

@@ -592,7 +592,7 @@
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
-        img(src='@/assets/curso/tema1/img50.svg' alt="")
+        img(src='@/assets/curso/tema1/img50.svg' alt="Estándares populares de auditoría de seguridad de la información: Cumplimiento de ISO, Regla de seguridad de HIPAA y Cumplimiento de PCI DSS.")
 
     .mb-4.d-flex
       .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #40327B; border-radius: 0 15px 15px 0;" data-aos="fade-right")
@@ -696,42 +696,42 @@
         .BGIMG14.hg-05.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/tema1/img64.svg'  alt="")
+              img(src='@/assets/curso/tema1/img64.svg'  alt="" style="max-width: 160px;").m-auto
           .text-white
             h4.text-center Seguridad de datos
             p.text-center.mb-0 Una auditoría de seguridad de datos comienza con una revisión completa del control de acceso de la red. Los auditores identifican si hay alguna forma de encriptación, la protección en reposo y la transmisión de datos.
         .BGIMG14.hg-05.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/tema1/img65.svg'  alt="")
+              img(src='@/assets/curso/tema1/img65.svg'  alt="" style="max-width: 160px;").m-auto
           .text-white
             h4.text-center Seguridad operacional
             p.text-center.mb-0 Una auditoría de seguridad analiza todas las políticas de seguridad que tiene implementadas. También examina cada procedimiento, proceso y control en la estrategia de prevención de pérdida de datos.
         .BGIMG14.hg-05.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/tema1/img66.svg'  alt="")
+              img(src='@/assets/curso/tema1/img66.svg'  alt="" style="max-width: 160px;").m-auto
           .text-white
             h4.text-center Seguridad de la red
             p.text-center.mb-0 Los auditores revisan todos los controles de red y protocolos de seguridad. Examinan si el centro de operaciones de seguridad está funcionando y verifican si el antivirus está configurado correctamente.
         .BGIMG14.hg-05.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/tema1/img67.svg'  alt="")
+              img(src='@/assets/curso/tema1/img67.svg'  alt="" style="max-width: 160px;").m-auto
           .text-white
             h4.text-center Sistema de seguridad
             p.text-center.mb-0 Los auditores se aseguran de que el proceso de fortalecimiento de los datos funcione correctamente, verifican que los parches de seguridad estén actualizados y que el acceso privilegiado se administre.
         .BGIMG14.hg-05.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/tema1/img68.svg'  alt="")
+              img(src='@/assets/curso/tema1/img68.svg'  alt="" style="max-width: 160px;").m-auto
           .text-white
             h4.text-center Seguridad física
             p.text-center.mb-0 Los auditores verifican el estado de todos los dispositivos físicos utilizados para acceder a la red. Analizan el cifrado de disco y todos los controles basados en roles.
         .BGIMG14.hg-05.p-4
           .row.justify-content-center.mb-3
             .col-6
-              img(src='@/assets/curso/tema1/img69.svg'  alt="")
+              img(src='@/assets/curso/tema1/img69.svg'  alt="" style="max-width: 160px;").m-auto
           .text-white
             h4.text-center Auditorías internas y externas
             p.text-center.mb-0 Si se desea realizar una auditoría de seguridad cibernética, el departamento de TI normalmente se puede hacer. Sin embargo, existe una pequeña posibilidad de que no tengan todas las herramientas para realizar dicha tarea correctamente.
@@ -1272,7 +1272,7 @@
         img(src='@/assets/curso/temas/number03.svg' style="max-width: 28px; margin-left: -16px; position: absolute" alt="")
         .h5.col.p-2.ms-4.mb-0 Identificar los controles de seguridad existentes y las áreas de mejora
 
-    p Si se está esperando una auditoría de seguridad cibernética, no hay duda de que la organización ya cuenta con salvaguardas existentes para proteger la confidencialidad, integridad y disponibilidad de los sistemas e información. La verdadera pregunta es si los controles de seguridad existentes son suficientes para cumplir con los requisitos de cumplimiento. Según el Informe de riesgos de TI de Netwrix de 2018, se debe considera esto:
+    p Si se está esperando una auditoría de seguridad cibernética, no hay duda de que la organización ya cuenta con salvaguardas existentes para proteger la confidencialidad, integridad y disponibilidad de los sistemas e información. La verdadera pregunta es si los controles de seguridad existentes son suficientes para cumplir con los requisitos de cumplimiento. Según el Informe de riesgos de TI de Netwrix de 2018, se debe considerar esto:
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-10.mb-4(data-aos="fade-right")
@@ -1576,4 +1576,7 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.hg-05
+  min-height: 410px !important
+</style>
